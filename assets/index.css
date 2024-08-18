@@ -1,0 +1,26 @@
+html{
+    font-family: 'HelveticaNeue', 'Roboto', sans-serif;
+    overflow-y: auto;
+    overflow-x: hidden;
+    color: #fff;
+}
+
+html, body, #__nuxt {
+    height: 100vh;
+    background-color: #090025;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-track {
+    background: linear-gradient(0deg, rgba(25,0,74) 0%, rgba(168,60,255) 100%);
+}
+
+::-webkit-scrollbar-thumb {
+    background: transparent;
+    box-shadow: 0px 0px 0px 1000vh black;
+    border-radius: 10px;
+}
